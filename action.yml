@@ -1,0 +1,9 @@
+# action.yml
+name: 'Rhein Schwumm'
+description: 'Displays the current temperature of the Rhein.'
+outputs:
+  temperature: # id of output
+    description: 'The current temperature'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
